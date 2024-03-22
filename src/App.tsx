@@ -1,12 +1,21 @@
-import { useState } from 'react'
-
+import { Box } from '@mui/material'
 import './App.css'
+import CountrySelect from './componenet/CountrySelector'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
+
+
     <>
+      <Box display="grid" >
+        <Box gridColumn="span 8">
+          <CountrySelect />
+        </Box>
+      </Box>
+
+
 
     </>
   )
